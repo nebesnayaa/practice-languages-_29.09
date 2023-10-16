@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>practice_languages__29._09</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\eng.png" />
+    <None Remove="Images\ukr.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\eng.png" />
+    <Resource Include="Images\ukr.png" />
+  </ItemGroup>
+
+</Project>
